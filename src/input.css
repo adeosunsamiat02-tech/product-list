@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-btn:hover{
+  border-color: hsl(14, 86%, 42%) !important;
+  color: hsl(14, 86%, 42%) !important;
+}
+.qty button:hover{
+  background: white !important;
+}
+.qty button:hover img{
+  filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(3000%) hue-rotate(350deg);
+}
+.product-active{
+  outline: 2px solid hsl(14, 86%, 42%);
+  outline-offset: -2px;
+}
+#confirm-btn:hover, #new-order:hover{
+  filter: brightness(0.9);
+}
